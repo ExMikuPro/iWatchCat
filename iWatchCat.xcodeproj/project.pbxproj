@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		613F29D82B24B99C00F73D4F /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 613F29D72B24B99C00F73D4F /* Logo.png */; };
 		6163532A2B2361B4009EF287 /* iWatchCat Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 616353292B2361B4009EF287 /* iWatchCat Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6163532F2B2361B4009EF287 /* iWatchCatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163532E2B2361B4009EF287 /* iWatchCatApp.swift */; };
 		616353312B2361B4009EF287 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616353302B2361B4009EF287 /* ContentView.swift */; };
@@ -57,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		613F29D72B24B99C00F73D4F /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../../../Desktop/Logo.png; sourceTree = "<group>"; };
 		616353232B2361B4009EF287 /* iWatchCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWatchCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616353292B2361B4009EF287 /* iWatchCat Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iWatchCat Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6163532E2B2361B4009EF287 /* iWatchCatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWatchCatApp.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		6163531C2B2361B4009EF287 = {
 			isa = PBXGroup;
 			children = (
+				613F29D72B24B99C00F73D4F /* Logo.png */,
 				6163532D2B2361B4009EF287 /* iWatchCat Watch App */,
 				6163533E2B2361B4009EF287 /* iWatchCat Watch AppTests */,
 				616353482B2361B4009EF287 /* iWatchCat Watch AppUITests */,
@@ -279,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613F29D82B24B99C00F73D4F /* Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
