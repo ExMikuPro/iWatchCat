@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    let items = ["黑色喵呜", "白色喵呜", "花色喵呜"]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "graduationcap")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("ExMikuPro!")
+        List{
+            Section(header: Text("修改显示图片")
+                .foregroundColor(.pink)
+            ){
+                ForEach(items, id: \.self) { item in
+                    Text(item)
+                        .foregroundColor(.blue)
+                }
+            }
         }
-        .padding()
+        
+    }
+    func didSelectItem(_ item: String) {
+        // 在这里执行点击手势触发的函数
+        print("Selected item: \(item)")
     }
 }
 
