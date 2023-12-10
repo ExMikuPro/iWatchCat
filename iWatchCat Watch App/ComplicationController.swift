@@ -11,13 +11,12 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     func currentTimelineEntry(
         for complication: CLKComplication
     ) async -> CLKComplicationTimelineEntry? {
-        guard complication.family == .circularSmall else {
-          return nil
-        }
-        let template = CLKComplicationTemplateGraphicCircularStackText(
-          line1TextProvider: .init(format: "line1"),
-          line2TextProvider: .init(format: "line2"))
-        return .init(date: Date(), complicationTemplate: template)
+        let template = CLKComplicationTemplateGraphicCircularImage(
+            imageProvider: CLKFullColorImageProvider(fullColorImage: UIImage(named: "ClockKitLogo")!)
+        )
+        let entry = CLKComplicationTimelineEntry(date: Date(), complicationTemplate: template)
+        return entry
+        
     }
     
     // 在复杂功能列表里创建选项

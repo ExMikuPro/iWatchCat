@@ -21,7 +21,6 @@ struct ContentView: View {
                 }
             }
         }
-        
     }
     func didSelectItem(_ item: String) {
         // 在这里执行点击手势触发的函数
