@@ -16,8 +16,10 @@ struct ContentView: View {
                 .foregroundColor(.pink)
             ){
                 ForEach(items, id: \.self) { item in
-                    Text(item)
-                        .foregroundColor(.blue)
+                    Button(action: {print(item)}){
+                        Text(item)
+                            .foregroundColor(.blue)
+                    }
                 }
             }
         }

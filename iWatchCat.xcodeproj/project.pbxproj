@@ -17,6 +17,7 @@
 		6163534A2B2361B4009EF287 /* iWatchCat_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616353492B2361B4009EF287 /* iWatchCat_Watch_AppUITests.swift */; };
 		6163534C2B2361B4009EF287 /* iWatchCat_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163534B2B2361B4009EF287 /* iWatchCat_Watch_AppUITestsLaunchTests.swift */; };
 		616353602B240789009EF287 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163535F2B240789009EF287 /* ComplicationController.swift */; };
+		61DC86D62B256DE900167C6D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DC86D52B256DE900167C6D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		616353492B2361B4009EF287 /* iWatchCat_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWatchCat_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		6163534B2B2361B4009EF287 /* iWatchCat_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWatchCat_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6163535F2B240789009EF287 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		61DC86D52B256DE900167C6D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		6163532D2B2361B4009EF287 /* iWatchCat Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				61DC86D52B256DE900167C6D /* Model.swift */,
 				6163532E2B2361B4009EF287 /* iWatchCatApp.swift */,
 				616353302B2361B4009EF287 /* ContentView.swift */,
 				616353322B2361B4009EF287 /* Assets.xcassets */,
@@ -319,6 +322,7 @@
 				616353312B2361B4009EF287 /* ContentView.swift in Sources */,
 				6163532F2B2361B4009EF287 /* iWatchCatApp.swift in Sources */,
 				616353602B240789009EF287 /* ComplicationController.swift in Sources */,
+				61DC86D62B256DE900167C6D /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
